@@ -1,0 +1,138 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+body{
+    align-items: center;
+    background-image: url(../img/bg.jpg);
+    display: flex;
+    font-family: 'Dosis',sans-serif;
+    height: inherit;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+ width: 100%;
+}
+.text{
+    display: block;
+    align-items: center;
+    margin-top: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text h1{
+    font-size: 60px;
+    color:deeppink;
+    font-weight: bolder;
+}
+.text p{
+  font: 1em sans-serif;
+  color: slategray;
+  font-weight: 500;
+}
+.text h2{
+    font-size: 40px;
+    color:deeppink;
+    font-weight: bolder;
+}
+.text span{
+    color:rgb(98, 0, 255);
+}
+.wrapper{
+   height: 70%;
+   background-color: black;
+   border: 5px white double ;    
+   border-radius: 1.5rem;
+   
+}
+.screen{
+    min-height: 200px;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color:white;
+    text-align: right;
+}
+.screen .input{
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+.screen .output{
+    font-size: 3rem;
+    font-weight: 700;
+    max-width: 100%;
+    overflow: auto;
+}
+.screen .operator{
+    color: #eb6666;
+}
+.calc_buttons{
+   background-color: rgba(255, 234, 234, 0);
+   padding: 1.5rem;
+    border-radius: 1.5rem;
+   width: 100%;
+   height: 50;
+   display: grid;
+   grid-template-columns: 25% 25% 25% 25%;
+   gap: 2px;
+}
+.calc_buttons .calc-button{
+    display: flex;
+    border: 1px white solid ;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 100%;
+    border: none;
+    width: 60px;
+    height: 60px;
+}
+.equals{
+    color: white;
+    background: linear-gradient(#ED0E98,#FE5A2D);
+}
+.equals:hover{
+    background: black;
+    color:#FE5A2D;
+}
+.double{
+    color:#ed0e51;
+    background-color: black;
+}
+.double:hover{
+    background-color: #ed0e51;
+    color: black;
+}
+.sign{
+    color:#FE5A2D;
+    background-color: black;
+}
+
+.sign:hover{
+    background-color: #FE5A2D;
+    color: black;
+}
+
+.number{
+    color: white;
+    background-color: black
+}
+.number:hover{
+    background-color: white;
+    color: black;
+}
+.toggleswitch button{
+    border-radius: 1.5rem;
+    border: none;
+    padding: 0.5rem;
+    background-color: black;
+    color: white;
+    font-size: 1rem;  
+}

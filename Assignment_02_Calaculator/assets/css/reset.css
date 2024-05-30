@@ -1,0 +1,47 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .calc_buttons {
+        grid-template-columns: 25% 25% 25% 25% ;
+    }
+}
+
+/* Small devices (tablets, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .container {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .calc_buttons {
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .container {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .calc_buttons {
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .container {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .calc_buttons {
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+}
