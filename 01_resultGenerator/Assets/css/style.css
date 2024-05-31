@@ -1,0 +1,48 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+body{
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background:linear-gradient(to right,deeppink,purple);
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.267);
+    text-align: center;
+    border-radius: 1.5rem;
+    display: block;
+}
+.input{
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 1.5rem;
+    outline: none;
+    font-size: 1.25rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    color:white
+}
+button{
+    border: none;
+    border-radius: 1.5rem;
+    background: linear-gradient(to right,orange,purple);
+    color: white;
+    width: 200px;
+    height: 25px;
+}
+button:hover,button:active{
+    background-color: aliceblue;
+    color: black;
+}
